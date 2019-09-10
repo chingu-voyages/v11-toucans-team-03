@@ -1,11 +1,13 @@
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
     background: linear-gradient(-170deg, #2376ae 0%, #c16ecf 100%);
     color: #fff;
     font-family: 'Raleway', sans-serif;
+    font-size: 17px;
 }
 
 .header img {
@@ -19,7 +21,8 @@ body {
 }
 
 .tagline {
-    grid-column: span 2;
+    font-weight: 800;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.3);
 }
 
 .person {
@@ -42,6 +45,23 @@ body {
 
 .person a {
     color: #ecd018;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-bar a {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    background: rgba(0, 0, 0, 0.2);
+    transform: scale(1.2, 1.2);
 }
 
 .subscribe-inner {
