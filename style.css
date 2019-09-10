@@ -1,3 +1,188 @@
-.content {
-    background: #000;
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(-170deg, #2376ae 0%, #c16ecf 100%);
+    color: #fff;
+}
+
+.header img {
+    max-width: 350px;
+}
+
+.right-header {
+    margin-top: 25px;
+}
+
+.tagline {
+    grid-column: span 2;
+}
+
+.person {
+    background: rgba(0, 0, 0, 0.2);
+    height: 180px;
+    margin: 15px;
+}
+
+.subscribe-inner {
+    width: 750px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    margin: 30px auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.signup {
+    display: flex;
+}
+
+.signup > * {
+    border-radius: 0;
+    border: 0;
+    outline: 0;
+}
+
+.subscribe-inner .details {
+    padding-top: 20px;
+}
+
+
+.signup input {
+    line-height: 2;
+    width: 60%;
+    padding: 15px;
+}
+
+.signup button {
+    background: yellow;
+    width: 40%;
+    font-size: 1.5em;
+}
+
+.episodes {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.episodes-inner {
+    background: rgba(0, 0, 0, 0.2);
+    margin: 30px;
+}
+
+.episode {
+    color: #252527;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.8);
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+}
+
+.all-episodes a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.episode-body {
+    
+}
+
+.episode-text {
+
+}
+
+.podcast-info {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.podcast-info-inner {
+    text-align: center;
+    margin: auto;
+}
+
+.facts span {
+    font-weight: bold;
+    font-size: 3em;
+    color: #ecd018;
+}
+
+.reviews-title {
+    font-size: 25px;
+    text-align: center;
+    margin: 20px;
+}
+
+.reviews-title span .number {
+    font-size: 40px;
+    font-weight: 800;
+    color: #ecd018;
+}
+
+.review-item {
+    display: flex;
+    flex-direction: column;
+    min-height: 135px;
+    justify-content: center;
+}
+
+.review-user {
+    align-self: center;
+    margin-top: 50px;
+}
+
+.reviews-inner {
+    margin: 50px auto;
+}
+
+.reviewText {
+    position: relative;
+    background: #fff;
+    color: #252527;
+    padding: 20px;
+    min-height: 135px;
+}
+
+.reviews-body img {
+    width: 75px;
+    border-radius: 50%;
+}
+
+.reviewText::after {
+    top: 100%;
+    border: solid #fff;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(226,226,226,0);
+    border-top-color: #fff;
+    border-width: 30px;
+    margin-left: 30%;
+}
+
+.footer {
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.footer a {
+    font-size: 75px;
+    color: #fff;
+}
+
+.footer img {
+    width: 100px;
+}
+
+.footer-right {
+    text-align: end;
 }

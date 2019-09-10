@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.2",
     "browser-sync": "^2.24.5",
     "run-script-os": "^1.0.3"
   }
