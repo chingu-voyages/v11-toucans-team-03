@@ -5,14 +5,17 @@ html {
 body {
     background: linear-gradient(-170deg, #2376ae 0%, #c16ecf 100%);
     color: #fff;
+    font-family: 'Raleway', sans-serif;
 }
 
 .header img {
-    max-width: 350px;
+    max-width: 300px;
+    margin-top: 10px;
+    margin-left: -15px;
 }
 
-.right-header {
-    margin-top: 25px;
+.header {
+    margin-top: 30px;
 }
 
 .tagline {
@@ -23,6 +26,22 @@ body {
     background: rgba(0, 0, 0, 0.2);
     height: 180px;
     margin: 15px;
+    padding: 15px;
+}
+
+.person img {
+    width: 80px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin: 5px;
+}
+
+.person-desc {
+    margin: 10px;
+}
+
+.person a {
+    color: #ecd018;
 }
 
 .subscribe-inner {
