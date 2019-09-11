@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
+    min-width: 500px;
 }
 
 body {
@@ -12,8 +13,8 @@ body {
 
 .header img {
     max-width: 300px;
-    margin-top: 10px;
-    margin-left: -15px;
+    margin-top: 20px;
+    margin-left: -45px;
 }
 
 .header {
@@ -27,7 +28,6 @@ body {
 
 .person {
     background: rgba(0, 0, 0, 0.2);
-    height: 180px;
     margin: 15px;
     padding: 15px;
 }
@@ -65,7 +65,7 @@ body {
 }
 
 .subscribe-inner {
-    width: 750px;
+    max-width: 750px;
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.2);
     margin: 30px auto;
@@ -170,6 +170,7 @@ body {
     flex-direction: column;
     min-height: 135px;
     justify-content: center;
+    margin: auto;
 }
 
 .review-user {
@@ -224,4 +225,13 @@ body {
 
 .footer-right {
     text-align: end;
+}
+
+
+/** MEDIA QUERIES **/
+
+@media all and (max-width: 1000px) {
+    .header-left img {
+        display: none;
+    }
 }

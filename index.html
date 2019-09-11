@@ -8,17 +8,18 @@
     <link rel="stylesheet" href="style.css"> <!-- Added after Bootstrap to override some classes -->
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,300" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <title>Document</title>
 </head>
 
 <body>
     <section class='header container'>
         <div class="row">
-            <div class='left-header col-3'>
+            <div class='header-left col-3'>
                 <img src="resources/logo.png" alt="Syntax">
             </div>
         
-            <div class='right-header col-9'>
+            <div class='header-right col-lg-9 '>
                 <h1 class="tagline">The JenniRick Show</h1>
                 <div class="people row">
 
@@ -54,10 +55,10 @@
     </section>
 
     <section class="nav-bar container">
-        <a href="#subscribe">Subscribe</a>
-        <a href="#episodes">Episodes</a>
-        <a href="#podcast-info">About Us</a>
-        <a href="#reviews">Reviews</a>
+        <a class="animated heartBeat" href="#subscribe">Subscribe</a>
+        <a class="animated heartBeat" href="#episodes">Episodes</a>
+        <a class="animated heartBeat" href="#podcast-info">About Us</a>
+        <a class="animated heartBeat" href="#reviews">Reviews</a>
     </section>
     
     <section class="subscribe" id="subscribe">
@@ -74,7 +75,7 @@
 
     <section class='episodes' id="episodes">
         <div class="episodes-inner container row justify-content-center">
-            <div class="col-3 episode">
+            <div class="col-5 col-lg-3 episode">
                     <div class="episode-body">
                         <h5 class="episode-title">Episode 1</h5>
                         <p class="episode-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -82,7 +83,7 @@
                     </div>
             </div>
 
-            <div class="col-3 episode">
+            <div class="col-5 col-lg-3 episode">
                     <div class="episode-body">
                         <h5 class="episode-title">Episode 2</h5>
                         <p class="episode-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -90,14 +91,14 @@
                     </div>
             </div>
 
-            <div class="col-3 episode">
+            <div class="col-5 col-lg-3  episode">
                     <div class="episode-body">
                         <h5 class="episode-title">Episode 3</h5>
                         <p class="episode-textt">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <a href="#" class="btn btn-primary">Listen</a>
                     </div>
             </div>
-            <div class="col-3 episode">
+            <div class="col-5 col-lg-3 episode">
                     <div class="episode-body">
                         <h5 class="episode-title">Episode 1</h5>
                         <p class="episode-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -105,7 +106,7 @@
                     </div>
             </div>
 
-            <div class="col-3 episode">
+            <div class="col-5 col-lg-3 episode">
                     <div class="episode-body">
                         <h5 class="episode-title">Episode 2</h5>
                         <p class="episode-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -113,7 +114,7 @@
                     </div>
             </div>
 
-            <div class="col-3 episode">
+            <div class="col-5 col-lg-3 episode">
                     <div class="episode-body">
                         <h5 class="episode-title">Episode 3</h5>
                         <p class="episode-textt">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -121,7 +122,7 @@
                     </div>
             </div>
 
-            <div class="col-3 episode">
+            <div class="col-5 col-lg-3 episode">
                     <div class="episode-body">
                         <h5 class="episode-title">Episode 1</h5>
                         <p class="episode-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -129,7 +130,7 @@
                     </div>
             </div>
 
-            <div class="col-3 episode">
+            <div class="col-5 col-lg-3 episode">
                     <div class="episode-body">
                         <h5 class="episode-title">Episode 2</h5>
                         <p class="episode-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -137,7 +138,7 @@
                     </div>
             </div>
 
-            <div class="col-3 episode">
+            <div class="col-5 col-lg-3 episode">
                     <div class="episode-body">
                         <h5 class="episode-title">Episode 3</h5>
                         <p class="episode-textt">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -173,7 +174,7 @@
             </div>
             <div class="reviews-body row justify-content-between">
 
-                <div class="review-item col-3">
+                <div class="review-item col-8 col-lg-3 mt-3">
                     <div class="reviewText">
                         <p>Probably the best way to use my phone. This is a revolutionary way to learn code. The comments on each question/section adds a real world perspective.</p>
                     </div>
@@ -183,7 +184,7 @@
                     </div>
                 </div>
                 
-                <div class="review-item col-3">
+                <div class="review-item col-8 col-lg-3 mt-3">
                     <div class="reviewText">
                         <p>Wow... I mean... WOW! Boys and girls, just go for it... I mean, it's just so simple, so pretty and well organized. I've been looking for free, self learning tools all over for all kinds of stuff and this is by far, the best one. Just too good! And by the way, the community is there, always, to help.</p>
                     </div>
@@ -193,7 +194,7 @@
                     </div>
                 </div>
 
-                <div class="review-item col-3">
+                <div class="review-item col-8 col-lg-3 mt-3">
                     <div class="reviewText">
                         <p>Appreciations! Superb application with step-by-step teaching. You are making a lot of impacts especially in Ghana, Africa. I couldn't afford the university to learn to code. Thanks so much. Keep it up.</p>
                     </div>
