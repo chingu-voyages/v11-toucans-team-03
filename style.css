@@ -112,15 +112,12 @@ body {
 }
 
 .episode {
-    color: #252527;
-    display: flex;
-    flex-direction: column;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
-    background: rgba(255, 255, 255, 0.8);
-    width: 300px;
-    height: 300px;
     margin: 25px;
+}
+
+.episode img {
+    width: 100%;
+    height: 350px;
 }
 
 .all-episodes a {
@@ -130,12 +127,11 @@ body {
     padding: 10px;
 }
 
-.episode-body {
-    
-}
-
-.episode-text {
-
+.episode-title {
+    background: rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin: 10px;
+    transform: skew(-5deg);
 }
 
 .podcast-info {
