@@ -95,7 +95,7 @@ body {
 }
 
 .signup button {
-    background: yellow;
+    background: #ecd018;
     width: 40%;
     font-size: 1.5em;
 }
@@ -113,6 +113,15 @@ body {
 
 .episode {
     margin: 25px;
+}
+
+.episode:hover {
+    transform: scale(1.1);
+}
+
+.episode:hover h3 {
+    color: #000;
+    background: #ecd018;
 }
 
 .episode img {
@@ -147,6 +156,17 @@ body {
     font-weight: bold;
     font-size: 3em;
     color: #ecd018;
+}
+
+.description h3 {
+    background: rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    transform: rotate(-4deg) skew(-10deg);
+    margin: 25px;
+}
+
+.description {
+    font-size: 20px;
 }
 
 .reviews-title {
