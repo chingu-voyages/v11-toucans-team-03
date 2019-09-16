@@ -1,1 +1,1 @@
-This is our team project on Chingu Voyage 11. We are Toucans Team 03! Our project is podcast on various issues in Web Development.
+This project is part of Chingu Voyage 11 and we are the Toucans Team 03! This project is a fun podcast on some issues in Web Development and it will feature the Patrick and Jennifer show!
