@@ -12,9 +12,9 @@ html {
 
 
 body {
-    background: linear-gradient(-170deg, #6eb3e2  0%, white 100%);
+    background: linear-gradient(-170deg, #2376ae 0%, white 100%);
     
-    /*#2376ae - original background color*/
+    /*- original background color*/
     color: #fff;
     font-family: 'Raleway', sans-serif;
     font-size: 17px;
@@ -64,11 +64,16 @@ body {
 .nav-bar {
     display: flex;
     justify-content: space-around;
+    background-color: white;
+    
+    
 }
-
+.nav-row{
+    background-color: white;
+}
 .nav-bar a {
     font-size: 30px;
-    color: #fff;
+    color: #2376ae;
     font-weight: 600;
     text-decoration: none;
 }
@@ -78,6 +83,9 @@ body {
     transform: scale(1.2, 1.2);
 }
 
+.logoimage{
+    height: 4em;
+}
 .subscribe-inner {
     max-width: 750px;
     border-radius: 10px;
