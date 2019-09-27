@@ -1,5 +1,7 @@
 /*notes: colors that go well with background color, 
-https://www.colorhexa.com/6eb3e2, #6eb3e2*/
+https://www.colorhexa.com/6eb3e2, #6eb3e2
+orange color that matches the mic is #FB9137
+*/
 
 
 html {
@@ -12,7 +14,7 @@ html {
 
 
 body {
-    background: linear-gradient(-170deg, #2376ae 0%, white 100%);
+    background: linear-gradient(110deg, #2376ae 25%, white 100%);
 
     /*- original background color*/
     color: #fff;
@@ -32,11 +34,23 @@ body {
 
 .tagline {
     font-weight: 800;
-    text-shadow: 4px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px rgba(2, 2, 2, 1);
+    color: #FB9137;
+    padding-top: 2 em;
+
 }
 
+.episodeline {
+    font-weight: 800;
+    color: white;
+    display: inline-block;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+
 .person {
-    background: #6FB3E2;
+
     margin: 15px;
     padding: 15px;
 }
@@ -67,6 +81,7 @@ body {
     background-color: white;
 
 }
+
 
 
 
@@ -135,6 +150,7 @@ body {
     text-align: center;
     display: flex;
     justify-content: center;
+    padding-top: 3em;
 }
 
 .episodes-inner {
