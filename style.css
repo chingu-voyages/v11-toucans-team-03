@@ -1,3 +1,302 @@
-.content {
-    background: #000;
+/*notes: colors that go well with background color, 
+https://www.colorhexa.com/6eb3e2, #6eb3e2
+orange color that matches the mic is #FB9137
+*/
+
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    min-width: 500px;
 }
+
+
+
+
+body {
+    background: linear-gradient(110deg, #2376ae 25%, white 100%);
+
+    /*- original background color*/
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+}
+
+.header img {
+    max-width: 300px;
+    margin-top: 20px;
+    margin-left: -45px;
+}
+
+.header {
+    margin-top: 30px;
+}
+
+.tagline {
+    font-weight: 800;
+    text-shadow: 2px 2px rgba(2, 2, 2, 1);
+    color: #FB9137;
+    padding-top: 2 em;
+
+}
+
+.episodeline {
+    font-weight: 800;
+    color: white;
+    display: inline-block;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+
+.person {
+
+    margin: 15px;
+    padding: 15px;
+}
+
+/*#
+#AE5B23
+*/
+/*colors, BFBFC3 is a light gray possibly use for buttons*/
+
+.person img {
+    width: 80px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin: 5px;
+}
+
+.person-desc {
+    margin: 10px;
+}
+
+.person a {
+    color: #ecd018;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+
+}
+
+
+
+
+.nav-bar a {
+
+    color: #2376ae;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navlinks {
+    word-spacing: .75em;
+    font-size: 1.3em;
+    padding: 1.3em 0;
+}
+
+.nav-bar a:hover {
+    background: rgba(0, 0, 0, 0.2);
+    transform: scale(1.2, 1.2);
+}
+
+
+
+.logoimage {
+    height: 4em;
+    padding-top: 1em;
+}
+
+.subscribe-inner {
+    max-width: 750px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    margin: 30px auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.signup {
+    display: flex;
+}
+
+.signup>* {
+    border-radius: 0;
+    border: 0;
+    outline: 0;
+}
+
+.subscribe-inner .details {
+    padding-top: 20px;
+}
+
+
+.signup input {
+    line-height: 2;
+    width: 60%;
+    padding: 15px;
+}
+
+.signup button {
+    background: #ecd018;
+    width: 40%;
+    font-size: 1.5em;
+}
+
+.episodes {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
+}
+
+.episodes-inner {
+    background: rgba(0, 0, 0, 0.2);
+    margin: 30px;
+}
+
+.episode {
+    margin: 25px;
+}
+
+.episode:hover {
+    transform: scale(1.1);
+}
+
+.episode:hover h3 {
+    color: #000;
+    background: #ecd018;
+}
+
+.episode img {
+    width: 100%;
+    height: 80%;
+}
+
+.episodes a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.episode-title {
+    background: rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin: 10px;
+    transform: skew(-5deg);
+}
+
+.podcast-info {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.podcast-info-inner {
+    text-align: center;
+    margin: auto;
+}
+
+.facts span {
+    font-weight: bold;
+    font-size: 3em;
+    color: #ecd018;
+}
+
+.description h3 {
+    background: rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    transform: rotate(-4deg) skew(-10deg);
+    margin: 25px;
+}
+
+.description {
+    font-size: 20px;
+}
+
+.reviews-title {
+    font-size: 25px;
+    text-align: center;
+    margin: 20px;
+}
+
+.reviews-title span .number {
+    font-size: 40px;
+    font-weight: 800;
+    color: #ecd018;
+}
+
+.review-item {
+    display: flex;
+    flex-direction: column;
+    min-height: 135px;
+    justify-content: center;
+    margin: auto;
+}
+
+.review-user {
+    align-self: center;
+    margin-top: 50px;
+}
+
+.reviews-inner {
+    margin: 50px auto;
+}
+
+.reviewText {
+    position: relative;
+    background: #fff;
+    color: #252527;
+    padding: 20px;
+    min-height: 135px;
+}
+
+.reviews-body img {
+    width: 75px;
+    border-radius: 50%;
+}
+
+.reviewText::after {
+    top: 100%;
+    border: solid #fff;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(226, 226, 226, 0);
+    border-top-color: #fff;
+    border-width: 30px;
+    margin-left: 30%;
+}
+
+.footer {
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.footer a {
+    font-size: 75px;
+    color: #fff;
+}
+
+.footer img {
+    width: 100px;
+}
+
+.footer-right {
+    text-align: end;
+}
+
+
+/** MEDIA QUERIES **/
+
+@media all and (max-width: 1000px) {
+    .header-left img {
+        display: none;
+    }
+}
+
+9e9ea5
