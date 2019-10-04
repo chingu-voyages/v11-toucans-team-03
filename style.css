@@ -50,7 +50,7 @@ body {
 
 
 .person {
-
+font-weight: 500;
     margin: 15px;
     padding: 15px;
 }
@@ -278,12 +278,14 @@ body {
 }
 
 .footer a {
-    font-size: 75px;
+    font-size: 2rem;
     color: #fff;
+    padding-top: .5em;
 }
 
 .footer img {
-    width: 100px;
+    width: 15em;
+    height: 3em;
 }
 
 .footer-right {
