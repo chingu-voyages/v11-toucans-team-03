@@ -114,8 +114,8 @@ font-weight: 500;
     max-width: 750px;
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.2);
-    margin: 30px auto;
-    padding: 30px;
+    margin: 3em auto;
+    padding: 2em;
     text-align: center;
 }
 
@@ -141,7 +141,8 @@ font-weight: 500;
 }
 
 .signup button {
-    background: #ecd018;
+   /* background: #FB9137;*/
+    background: #FDB275;
     width: 40%;
     font-size: 1.5em;
 }
@@ -286,6 +287,7 @@ font-weight: 500;
 .footer img {
     width: 15em;
     height: 3em;
+    margin-top: .3em;
 }
 
 .footer-right {
