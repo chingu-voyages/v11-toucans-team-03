@@ -72,7 +72,8 @@ font-weight: 500;
 }
 
 .person a {
-    color: #ecd018;
+    color: black;
+    font-weight: bolder;
 }
 
 .nav-bar {
@@ -142,7 +143,7 @@ font-weight: 500;
 
 .signup button {
    /* background: #FB9137;*/
-    background: #FDB275;
+    background: #FB9137;
     width: 40%;
     font-size: 1.5em;
 }
@@ -203,7 +204,7 @@ font-weight: 500;
 .facts span {
     font-weight: bold;
     font-size: 3em;
-    color: #ecd018;
+    color: #fb9137;
 }
 
 .description h3 {
@@ -226,7 +227,7 @@ font-weight: 500;
 .reviews-title span .number {
     font-size: 40px;
     font-weight: 800;
-    color: #ecd018;
+    color: #fb9137;
 }
 
 .review-item {
@@ -240,6 +241,10 @@ font-weight: 500;
 .review-user {
     align-self: center;
     margin-top: 50px;
+}
+
+.review-user span {
+    color: black;
 }
 
 .reviews-inner {
