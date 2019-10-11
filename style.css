@@ -49,6 +49,11 @@ body {
   padding: 15px;
 }
 
+h4.person-name {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
 /*#
 #AE5B23
 */
@@ -63,6 +68,7 @@ body {
 
 .person-desc {
   margin: 10px;
+  font-size: 1.2em;
 }
 
 .person a {
@@ -144,6 +150,7 @@ body {
 .episodes-inner {
   background: rgba(0, 0, 0, 0.2);
   margin: 2em;
+  padding-bottom: 2em;
 }
 
 .episode {
