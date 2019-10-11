@@ -151,12 +151,13 @@ body {
 }
 
 .episode:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .episode:hover h3 {
   color: #000;
-  background: #ecd018;
+  background: #fdc191;
+  font-size: 1.5em;
 }
 
 .episode img {
