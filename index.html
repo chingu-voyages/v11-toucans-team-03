@@ -92,8 +92,10 @@
 
     <section class="subscribe" id="subscribe">
         <div class="subscribe-inner">
-            <form class="signup">
-                <input type="email" placeholder="Email Address">
+            <form class="signup" action="http://mailchimp.us8.list-manage.com/subscribe/post" method="POST">
+                <input type="hidden" name="u" value="####">
+                <input type="hidden" name="id" value="2453b59efe">
+                <input type="email" placeholder="Email Address" name="MERGE0" id="MERGE0">
                 <button>Subscribe →</button>
             </form>
             <p class="details">Get access to all 105 episodes by streaming or downloading them!</p>
