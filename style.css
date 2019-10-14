@@ -297,6 +297,7 @@ h4.person-name {
   width: 15em;
   height: 3em;
   margin-top: 0.3em;
+  padding-right: .5em;
 }
 
 .footer-right {
