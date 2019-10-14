@@ -14,22 +14,28 @@
 </head>
 
 <body>
+    <audio id="myAudio">
+        <source src="resources/episode1.m4a" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+
     <div class="row nav-bar sticky-top">
         <div><img src="resources/codetalks.png" class="logoimage"> </div>
         <div class="navlinks">
             <a class="animated heartBeat" href="#subscribe">Subscribe</a>
             <a class="animated heartBeat" href="#episodes">Episodes</a>
-            <a class="animated heartBeat" href="#podcast-info">About Us</a>
+            <a class="animated heartBeat" href="#podcast-info">About</a>
             <a class="animated heartBeat" href="#reviews">Reviews</a>
         </div>
     </div>
     <section class='header container'>
         <div class="row">
 
-            <div class='header-right col-lg-6'>
-                <i class="far fa-play-circle fa-2x"></i>
+            <div class='header-right col-lg-6 featured-epsiode'>
+                <i class="far fa-play-circle fa-2x" onclick="playAudio()"></i>
                 <h3 class="episodeline">Episode 1</h3>
-                <h3 class="tagline">What makes a freakin great website?!</h3>
+                <h3 class="tagline">What makes a great website?!</h3>
             </div>
 
             <div class="person col-5">
@@ -55,32 +61,32 @@
 
         <div class="episodes-inner container-fluid row justify-content-center">
 
-            <div class="col-md-5 col-lg-3 episode">
+            <div class="col-md-5 col-lg-3 episode" onclick="alert('This episode will be coming soon, be patient =)')">
                 <img src="resources/episode1.png" alt="">
                 <h3 class='episode-title'>ep2 - Software Marketing Plan</h3>
             </div>
 
-            <div class="col-md-5 col-lg-3 episode">
+            <div class="col-md-5 col-lg-3 episode" onclick="alert('This episode will be coming soon, be patient =)')">
                 <img src="resources/episode2.png" alt="">
                 <h3 class='episode-title'>ep3 - Coffee and Coding</h3>
             </div>
 
-            <div class="col-md-5 col-lg-3 episode">
+            <div class="col-md-5 col-lg-3 episode" onclick="alert('This episode will be coming soon, be patient =)')">
                 <img src="resources/episode3.png" alt="">
                 <h3 class='episode-title'>ep4 - Functional Fridays (Series 1)</h3>
             </div>
 
-            <div class="col-md-5 col-lg-3 episode">
+            <div class="col-md-5 col-lg-3 episode" onclick="alert('This episode will be coming soon, be patient =)')">
                 <img src="resources/episode4.png" alt="">
                 <h3 class='episode-title'>ep5 - Techy Tuesdays (Series 1)</h3>
             </div>
 
-            <div class="col-md-5 col-lg-3 episode">
+            <div class="col-md-5 col-lg-3 episode" onclick="alert('This episode will be coming soon, be patient =)')">
                 <img src="resources/episode5.png" alt="">
                 <h3 class='episode-title'>ep6 - Coding on "blah" days</h3>
             </div>
 
-            <div class="col-md-5 col-lg-3 episode">
+            <div class="col-md-5 col-lg-3 episode" onclick="alert('This episode will be coming soon, be patient =)')">
                 <img src="resources/episode6.png" alt="">
                 <h3 class='episode-title'>ep7 - Coding with Purpose </h3>
             </div>
@@ -92,17 +98,18 @@
 
     <section class="subscribe" id="subscribe">
         <div class="subscribe-inner">
-            <form class="signup" action="http://mailchimp.us8.list-manage.com/subscribe/post" method="POST">
-                <input type="hidden" name="u" value="####">
+            <form class="signup" action="https://gmail.us20.list-manage.com/subscribe/post" method="POST">
+                <input type="hidden" name="u" value="e8da964257c63abc6ad2f2d9c">
                 <input type="hidden" name="id" value="2453b59efe">
-                <input type="email" placeholder="Email Address" name="MERGE0" id="MERGE0">
-                <button>Subscribe →</button>
+                <input type="email" placeholder="Email Address" name="MERGE0" id="MERGE0" size="25">
+                <button>Subscribe</button>
             </form>
             <p class="details">Get access to all 105 episodes by streaming or downloading them!</p>
             <p class="details">Join 102,000+ others in learning with CodeTalks!</p>
         </div>
 
     </section>
+
 
 
     <section class="podcast-info" id="podcast-info">

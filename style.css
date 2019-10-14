@@ -117,7 +117,7 @@ h4.person-name {
   display: flex;
 }
 
-.signup > * {
+.signup>* {
   border-radius: 0;
   border: 0;
   outline: 0;
@@ -146,6 +146,15 @@ h4.person-name {
   justify-content: center;
   padding-top: 3em;
 }
+
+.featured-epsiode {
+  padding-top: 3em;
+}
+
+
+
+
+
 
 .episodes-inner {
   background: rgba(0, 0, 0, 0.2);
