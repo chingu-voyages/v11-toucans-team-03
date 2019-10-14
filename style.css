@@ -113,6 +113,8 @@ h4.person-name {
   text-align: center;
 }
 
+
+
 .signup {
   display: flex;
 }
@@ -200,6 +202,10 @@ h4.person-name {
   background: rgba(0, 0, 0, 0.3);
 }
 
+#podcast-info {
+  padding-top: 5em;
+}
+
 .podcast-info-inner {
   text-align: center;
   margin: auto;
@@ -220,6 +226,10 @@ h4.person-name {
 
 .description {
   font-size: 20px;
+}
+
+#reviews {
+  padding-top: 2em;
 }
 
 .reviews-title {
